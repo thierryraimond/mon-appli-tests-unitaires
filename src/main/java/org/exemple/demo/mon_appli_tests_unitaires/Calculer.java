@@ -14,7 +14,7 @@ public class Calculer {
 	final static Logger log = Logger.getLogger(Log4jProperties.class);
 
 	/**
-	 * Addition de deux valeurs entières cités en paramètre
+	 * Addition de deux valeurs entières citées en paramètre
 	 * 
 	 * @param a int première valeur
 	 * @param b int seconde valeur

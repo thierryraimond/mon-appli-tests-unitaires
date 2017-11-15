@@ -13,7 +13,7 @@ public class Log4jProperties {
 		log.info("This is an info message");
 	}
 	
-	private static void myMethod() {
+	public static void myMethod() {
 		try {
 			throw new Exception("My Exception");
 		} catch (Exception e) {
