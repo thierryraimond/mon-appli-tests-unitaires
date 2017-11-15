@@ -25,4 +25,13 @@ public class Calculer {
 		log.trace("Addition : " + a + " + " + b);
 		return a + b;
 	}
+	
+	public int diviser(int a, int b) {
+		PropertyConfigurator.configure("log4j.properties");
+		if (b == 0) {
+			throw new ArithmeticException();
+		}
+		log.trace("Division : " + a + " / " + b);
+		return a / b;
+	}
 }
