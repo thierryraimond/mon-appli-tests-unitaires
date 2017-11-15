@@ -1,5 +1,8 @@
 package org.exemple.demo.mon_appli_tests_unitaires;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
 /**
  * Calculer des opérations
  * 
@@ -7,6 +10,8 @@ package org.exemple.demo.mon_appli_tests_unitaires;
  *
  */
 public class Calculer {
+	
+	final static Logger log = Logger.getLogger(Log4jProperties.class);
 
 	/**
 	 * Addition de deux valeurs entières cités en paramètre
@@ -16,7 +21,8 @@ public class Calculer {
 	 * @return int addition de a+b
 	 */
 	public int additionner(int a, int b) {
-		System.out.println("Addition : " + a + " + " + b);
+		PropertyConfigurator.configure("log4j.properties");
+		log.trace("Addition : " + a + " + " + b);
 		return a + b;
 	}
 }
