@@ -67,6 +67,31 @@
       		<version>1.2.0</version>
       		<scope>test</scope>
 		</dependency>
+		<!-- DBUnit - Tests sur la base de données -->
+		<dependency>
+		    <groupId>org.dbunit</groupId>
+		    <artifactId>dbunit</artifactId>
+		    <version>2.5.4</version>
+		    <scope>test</scope>
+		</dependency>
+		<!-- HSQL - Driver jdbc -->
+		<dependency>
+		    <groupId>org.hsqldb</groupId>
+		    <artifactId>hsqldb</artifactId>
+		    <version>2.4.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <version>5.1.44</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+		    <groupId>commons-io</groupId>
+		    <artifactId>commons-io</artifactId>
+		    <version>1.4</version>
+		</dependency>	
   	</dependencies>
 
     <!-- =============================================================== -->

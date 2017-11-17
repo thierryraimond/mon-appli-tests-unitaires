@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <EXEMPLE IDENTIFIANT="1" NOM="IBM"/>
+  <EXEMPLE IDENTIFIANT="2" NOM="Dell"/>
+  <EXEMPLE IDENTIFIANT="3" NOM="Apple"/>
+  <EXEMPLE IDENTIFIANT="4" NOM="Asus"/>
+</dataset>
