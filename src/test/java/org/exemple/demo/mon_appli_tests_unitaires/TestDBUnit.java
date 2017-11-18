@@ -25,14 +25,14 @@ import org.junit.Test;
  */
 public class TestDBUnit extends DBTestCase {
  
-    /** Logger. */
-    private static final Logger LOGGER = RootLogger.getLogger(DBTestCase.class);
+//    /** Logger. */
+//    private static final Logger LOGGER = RootLogger.getLogger(DBTestCase.class);
  
     /** Driver JDBC. */
     private static final String JDBC_DRIVER = "org.hsqldb.jdbcDriver";
  
     /** Base de données HSQLDB nommée "exemple" qui fonctionne en mode mémoire. */
-    private static final String DATABASE = "jdbc:hsqldb:file:db/exemple";
+    private static final String DATABASE = "jdbc:hsqldb:mem:db/exemple";
  
     /** Utilisateur qui se connecte à la base de données. */
     private static final String USER = "sa";
@@ -47,7 +47,7 @@ public class TestDBUnit extends DBTestCase {
     private static final String OUTPUT_DATA_SET_FILENAME = "dataSets/outputFlatXmlDataSet.xml";
  
     /** Nom de la table. */
-    public static final String TABLE_NAME = "EXEMPLE";
+    public static final String TABLE_NAME = "MANUFACTURER";
  
     // Variables de test
     /** Le nombre de tuples présents dans la table. */

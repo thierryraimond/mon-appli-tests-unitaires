@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <dataset>
-  <EXEMPLE IDENTIFIANT="1" NOM="IBM"/>
-  <EXEMPLE IDENTIFIANT="2" NOM="Dell"/>
-  <EXEMPLE IDENTIFIANT="3" NOM="Apple"/>
-  <EXEMPLE IDENTIFIANT="4" NOM="Asus"/>
+  <MANUFACTURER ID="1" NAME="IBM"/>
+  <MANUFACTURER ID="2" NAME="Dell"/>
+  <MANUFACTURER ID="3" NAME="Apple"/>
+  <MANUFACTURER ID="4" NAME="Asus"/>
 </dataset>
